@@ -1,0 +1,7 @@
+repositories {
+	jcenter()
+	mavenCentral()
+}
+dependencies {
+	com.applovin.mediation:mytarget-adapter:5.15.0.2
+}
