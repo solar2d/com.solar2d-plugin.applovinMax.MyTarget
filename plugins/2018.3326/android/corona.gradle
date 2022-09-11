@@ -3,5 +3,5 @@ repositories {
 	mavenCentral()
 }
 dependencies {
-	implementation 'com.applovin.mediation:mytarget-adapter:5.15.0.2'
+	implementation 'com.applovin.mediation:mytarget-adapter:5.15.1.7'
 }
