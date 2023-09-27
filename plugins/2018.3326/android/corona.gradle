@@ -1,8 +1,12 @@
+android.defaultConfig {
+    minSdkVersion Math.max(minSdkVersion?.apiLevel ?: 15, 21)
+}
+ext["minSdkVersion"] = Math.max(ext.find("minSdkVersion")?:15, 21)
 repositories {
 	jcenter()
 	mavenCentral()
 }
 dependencies {
-	implementation 'com.applovin.mediation:mytarget-adapter:5.16.4.0'
+	implementation 'com.applovin.mediation:mytarget-adapter:5.18.0.0'
 	implementation 'com.google.android.exoplayer:exoplayer:2.17.0'
 }
